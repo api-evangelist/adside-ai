@@ -66,7 +66,7 @@
 
 Adside provides a team of AI agents that manage paid advertising across platforms such as Meta, Google, LinkedIn, Reddit, and Twitter. The service offers market research, strategy drafting, creative generation, campaign monitoring, and optimization. It is available as a self‑service product for $290 per brand per month (or $190 with annual prepay) and as a managed service charging 10 % of ad spend with a $3,500 monthly minimum. Users can get started via the Get Started page, access free tools, view pricing and read the blog for updates.
 
-**Areas:** Advertising · AI · Marketing · SaaS · Automation
+**Areas:** Advertising · Artificial Intelligence · Marketing · Software-as-a-Service · Automation
 
 ## Adside on APIs.io
 
@@ -80,36 +80,42 @@ Everything profiled for Adside is published on APIs.io rather than in this repos
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adside-ai-mcp.yml](https://apis.io/servers/adside-ai/adside-ai-mcp-yml/)
+
 #### Overlays (1)
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Adside Ai Openapi Overlay](https://apis.io/overlays/adside-ai/adside-ai-openapi-overlay/)
+- [Adside Openapi Overlay](https://apis.io/overlays/adside-ai/adside-ai-openapi-overlay/)
 
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adside Ai Authentication](https://apis.io/security/adside-ai/adside-ai-authentication/)
-- [Adside Ai Domain Security](https://apis.io/security/adside-ai/adside-ai-domain-security/)
+- [Adside Authentication](https://apis.io/security/adside-ai/adside-ai-authentication/)
+- [Adside Domain Security](https://apis.io/security/adside-ai/adside-ai-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Adside Ai Scopes](https://apis.io/scopes/adside-ai/adside-ai-scopes/)
+- [Adside Scopes](https://apis.io/scopes/adside-ai/adside-ai-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Adside Ai Plans Pricing](https://apis.io/plans/adside-ai/adside-ai-plans-pricing/)
+- [Adside Plans Pricing](https://apis.io/plans/adside-ai/adside-ai-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Adside Ai Rate Limits](https://apis.io/rate-limits/adside-ai/adside-ai-rate-limits/)
+- [Adside Rate Limits](https://apis.io/rate-limits/adside-ai/adside-ai-rate-limits/)
 
 ## Where to find this API
 
@@ -129,18 +135,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 49.4** — developing · rubric 0.26.0 · scored 2026-10-31
+**Kin Score 50.9** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 28.2 |
-| Contract governance | 16.4 |
-| Operational transparency | 45.3 |
+| Discoverability | 81.7 |
+| Contract quality | 32.1 |
+| Contract governance | 4.5 |
+| Operational transparency | 42.9 |
 | Developer ergonomics | 54.0 |
-| Access clarity | 73.2 |
+| Access clarity | 76.6 |
 
-**Agent readiness 49.2** — agent-ready (gated down from agent-native)
+**Agent readiness 51.6** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -155,7 +161,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | conformant |
 | Dry Run Mode | — |
@@ -166,6 +172,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
 
